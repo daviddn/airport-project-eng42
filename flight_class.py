@@ -11,4 +11,9 @@ class Flight():
         return 'Flight: {}, Destination: {}, Origin: {}, Time: {}'.format(self.flight_num, self.destination, self.origin, self.time)
 
     def add_passenger(self, flight_num, destination, origin, time, name, passport):
-        self.passenger_list.append(flight_num + ' ' + destination + ' ' + origin + ' ' + time + ' ' + name + ' ' + passport)
+        self.passenger_list.append(flight_num)
+        self.passenger_list.append(destination)
+        self.passenger_list.append(origin)
+        self.passenger_list.append(time)
+        self.passenger_list.append(name)
+        self.passenger_list.append(passport)

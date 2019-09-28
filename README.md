@@ -5,19 +5,20 @@
 - destination
 - origin
 - time
-- passenger_list
 
 ### Passenger
 - flight number
 - destination
 - origin
 - time
-- passenger_list
-- 
+- name
+- passport
 
 ### Plane
 - flight number
 - destination
 - origin
 - time
-- passenger_list
+- capacity
+- year
+- plane number
